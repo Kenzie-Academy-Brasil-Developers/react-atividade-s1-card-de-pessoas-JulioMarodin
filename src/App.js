@@ -1,15 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Developer from './Components/Developer/Developer';
-import { useState } from 'react';
 
 function App() {
-  // const [dev, setDev] = useState({
-  //   name: 'Julio',
-  //   age: 22,
-  //   country: 'Canada',
-  // });
-
   const dev1 = {
     name: 'Gabriel',
     age: 19,
