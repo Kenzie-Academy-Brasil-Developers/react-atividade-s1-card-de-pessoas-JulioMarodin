@@ -24,9 +24,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Developer prop={dev1} />
-        <Developer prop={dev2} />
-        <Developer prop={dev3} />
+        <Developer name={'Gabriel'} age={19} country={'Brasil'} />
+        <Developer name={'Filipe'} age={28} country={'Brasil'} />
+        <Developer name={'Mariana'} age={24} country={'Italia'} />
       </header>
     </div>
   );

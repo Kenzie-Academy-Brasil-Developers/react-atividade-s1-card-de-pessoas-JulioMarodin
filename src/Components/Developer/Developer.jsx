@@ -1,9 +1,9 @@
-function Developer({ prop }) {
+function Developer({ name, age, country }) {
   return (
     <>
-      <h3>Dev: {prop.name}</h3>
-      <p>Age: {prop.age}</p>
-      <p>Country: {prop.country}</p>
+      <h3>Dev: {name}</h3>
+      <p>Age: {age}</p>
+      <p>Country: {country}</p>
     </>
   );
 }
